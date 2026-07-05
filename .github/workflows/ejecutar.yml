@@ -1,0 +1,26 @@
+name: Ejecutar analizador de logs
+
+# Se puede lanzar manualmente desde la pestaña "Actions" y tambien
+# corre automaticamente en cada push a la rama main.
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  ejecutar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el codigo
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Analizar archivo bien formado
+        run: python analizador_logs.py logs_validos.txt
+
+      - name: Analizar archivo con errores
+        run: python analizador_logs.py logs_con_errores.txt
