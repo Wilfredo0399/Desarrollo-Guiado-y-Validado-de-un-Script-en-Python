@@ -1,0 +1,9 @@
+# Guias / PDFs de la actividad (no forman parte de la entrega)
+Actividad de Kodigo 1.pdf
+tarea de kodigo 2.pdf
+
+# Artefactos de Python
+__pycache__/
+*.pyc
+.venv/
+venv/

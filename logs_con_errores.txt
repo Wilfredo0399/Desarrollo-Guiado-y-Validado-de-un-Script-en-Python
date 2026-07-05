@@ -1,0 +1,13 @@
+[INFO] 2025-01-10 User logged in
+[WARNING] Invalid password attempt
+[error] 2025-01-11 conexion perdida con el servidor
+[ERROR] 2025-13-45 Fecha imposible en el calendario
+[INFO]
+Este renglon no tiene nivel de severidad
+[ERROR] 2025-01-11 Failed to connect to database
+
+   [warning] 2025/01/12 Formato de fecha con barras
+[INFO] 2025-1-9 Fecha sin ceros a la izquierda
+[CRITICAL] 2025-01-15 Nivel de severidad no soportado
+· [INFO] 2025-01-16 Linea con punto decorativo inicial
+[WARNING]

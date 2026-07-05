@@ -1,0 +1,10 @@
+[INFO] 2025-01-10 User logged in
+[INFO] 2025-01-10 Session started for user admin
+[WARNING] 2025-01-11 Disk usage above 80 percent
+[ERROR] 2025-01-11 Failed to connect to database
+[INFO] 2025-01-12 Scheduled backup completed
+[WARNING] 2025-01-12 Invalid password attempt for user guest
+[ERROR] 2025-01-13 Timeout while calling payment service
+[INFO] 2025-01-13 User logged out
+[WARNING] 2025-01-14 Memory usage high
+[ERROR] 2025-01-14 Unhandled exception in module reports
